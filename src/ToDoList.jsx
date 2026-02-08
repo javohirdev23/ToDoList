@@ -125,7 +125,7 @@ export default function ToDoList() {
         <divc className="flex justify-end pr-5 pb-5">
           <button
             onClick={resetTask}
-            className="bg-blue-400 p-2 w-20 rounded-md flex justify-center  text-white hover:bg-blue-500 transition-colors"
+            className="bg-blue-400 p-2 w-20 rounded-md flex justify-center  text-white hover:bg-blue-500 transition-colors dark:text-white"
           >
             Reset
           </button>
