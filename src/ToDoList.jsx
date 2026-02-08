@@ -35,9 +35,8 @@ export default function ToDoList() {
     setTasks(updatedTasks);
   }
   function resetTask() {
-
     localStorage.removeItem("tasks");
-   setTasks([]);
+    setTasks([]);
   }
 
   return (
@@ -51,7 +50,7 @@ export default function ToDoList() {
             <input
               className="border border-gray-500 rounded-2xl p-2  w-90 "
               type="text"
-              placeholder="Mashxulotni kiriting..."
+              placeholder="Enter tasks..."
               value={newTask}
               onChange={handleInputChange}
             />
