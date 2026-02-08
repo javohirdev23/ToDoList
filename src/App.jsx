@@ -1,13 +1,13 @@
 import { AnimatedThemeToggler } from "@/components/ui/animated-theme-toggler";
 
 import { Meteors } from "@/components/ui/meteors";
+import ToDoList from "./ToDoList";
 
-import ToDoList from "./toDoList";
 function App() {
   return (
     <>
-      <Meteors />
       <ToDoList />
+      <Meteors />
       <div className="fixed bottom-5 right-5">
         <AnimatedThemeToggler />
       </div>
