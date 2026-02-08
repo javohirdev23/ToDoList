@@ -6,8 +6,8 @@ import ToDoList from "./toDoList";
 function App() {
   return (
     <>
-      <ToDoList />
       <Meteors />
+      <ToDoList />
       <div className="fixed bottom-5 right-5">
         <AnimatedThemeToggler />
       </div>
