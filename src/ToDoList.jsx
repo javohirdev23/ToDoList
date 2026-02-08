@@ -87,10 +87,7 @@ export default function ToDoList() {
           </ul>
         </div>
       </div>
-      <div className="w-100 mx-auto  flex justify-center mt-25 text-blue-300  text-bold text-[18px]">
-        <h3>by Javohirweb</h3>
-      
-      </div>
+ 
     </>
   );
 }
